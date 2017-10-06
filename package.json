@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "node-fetch": "^1.7.3",
     "pg": "^7.3.0",
-    "pipedrive": "^3.0.2"
+    "pipedrive": "^3.0.2",
+    "r2": "^2.0.0",
+    "sequelize": "^4.13.5"
   }
 }
